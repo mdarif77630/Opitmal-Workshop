@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-banner">
+         <div class="container">
+
+            <div class="small-bold-text banner-text">
+                New To Usability Hub: Open and Colsed Card Sorting
+            </div>
+         </div>
+    </div>
+
+    <nav>
+        <div class="conatiner main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="data:image/png;base64,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"
+                 alt="companyImg"> 
+            </a>
+            <div class="nav-link">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Products</a></li>
+                    <li><a href="#" class="hover-link">Customer</a></li>
+                    <li><a href="#" class="hover-link">Price</a></li>
+                    <li><a href="#" class="hover-link">Resource</a></li>
+                    <li><a href="#" class="hover-link secondary-button">Sign in</a></li>
+                    <li><a href="#" class="hover-link primary-button">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-section flex">
+            <div class="header-left">
+                <h1>Design Confidently</h1>
+                <p>
+                    Our platform is priced to suit teams of all sizes. Collecting responses from our participant panel is priced separately on all plans.The only platform you’ll need to uncover user insights — fast!
+                </p>
+                <a href="#" class="primary-button get-button">Get Started</a>
+            </div>
+            <div class="header-right">
+                <img 
+                src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/OW_Home_Header_-1920x1072.png"
+                alt="headerImg">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="company-section">
+        <div class="container">
+            <div class="small-bold-text company-header">
+                <h4>Design your website exactly how you want it—we provide everything you need to get started.</h4>
+            </div>
+
+            <div class="logos flex">
+                <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/11/logo_yelp.png"
+                 alt="yhelp" class="logo">
+                <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/11/logo_capital-one.png" 
+                alt="capital" class="logo">
+                <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/11/logo_ibm.png"
+                 alt="IBM" class="logo">
+                <img src="data:image/png;base64,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" 
+                alt="facebook" class="logo">
+                <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/11/logo_uber.png"
+                 alt="Uber" class="logo">
+                <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/11/logo_ge.png"
+                 alt="gimg" class="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container">
+            <div class="feature-header">
+                <h2 class="feature-title">Five specialized research tools in one place</h2>
+                <a href="#" class="secondary-button">See All Features</i></a>
+            </div>
+
+            <!-- card 1 -->
+            <div class="feature-area flex">
+                <div class="feature-card">
+                    <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/OptimalSort_64px-circle_colour.svg" 
+                    alt="logo1">
+
+                    <h3>Optimal Sort</h3>
+                    <p>Discover how people conceptualize.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+
+            <!-- card 2 -->
+                <div class="feature-card">
+                    <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/Treejack_64px-circle_colour.svg" 
+                    alt="logo1">
+
+                    <h3>Treejack</h3>
+                    <p>Whether you’re building a new website or improving the structure of your current one.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+
+            <!-- card 3 -->
+                <div class="feature-card">
+                    <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/Chalkmark_64px-circle_colour.svg"
+                    alt="logo1">
+
+                    <h3>Chalkmark</h3>
+                    <p>Get feedback on your designs fast.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+            
+            <!-- card 4 -->
+                <div class="feature-card">
+                    <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/Questions_64px-circle_colour.svg" 
+                    alt="logo1">
+
+                    <h3>Questions</h3>
+                    <p>Understand your customers and answer those burning questions.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+
+            <!-- card 5 -->
+                <div class="feature-card">
+                    <img src=https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/Reframer_64px-circle_colour.svg
+                    alt="logo1">
+
+                    <h3>Reframe</h3>
+                    <p>Capture all your research notes, usability tests and observations collaboratively in Reframer to have a single source of truth.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+
+                <!-- card 6 -->
+
+                <div class="feature-card">
+                    <img src=https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2020/02/Reframer_64px-circle_colour.svg
+                    alt="logo1">
+
+                    <h3>Reframe</h3>
+                    <p>Capture all your research notes, usability tests and observations collaboratively in Reframer to have a single source of truth.</p>
+                    <a href="#" class="secondary-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="big-container">
+        <h2 class="big-title">Insights to design better digital experiences</h2>
+    </div>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+             
+            <div class="feature-desc">
+                <h3>Streamline your research</h3>
+                <p>Optimal Workshop offers up multiple testing methods to support your research workflow, with specialized tools for card sorting, tree testing, first-click testing, surveys, and user interviews, all in one platform.</p>
+            </div>
+
+            <div class="feature-img">
+                <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/OW_Home_Feature-row-01.webp"
+                 alt="optimalImg">
+            </div>
+        </div>
+    </section>
+
+     
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+            <div class="feature-img">
+                 <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/09/OW_Questions_Feature-row-03-.webp" 
+                 alt="">
+            </div>
+            <div class="feature-desc">
+                <h3>Make the right decisions, based on data</h3>
+                <p>Empower your team to make data-driven decisions with confidence. Our quantitative and qualitative research tools are built on trusted scientific methods to deliver valid insights you can rely on.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="big-feature-section">
+        <div class="container flex big-feature-container">
+             
+            <div class="feature-desc">
+                <h3>Get actionable insights, fast</h3>
+                <p>Automated analysis saves valuable time. Uncover detailed insights easily with multiple visualization options and granular views that support your team to analyze data your way.</p>
+            </div>
+
+            <div class="feature-img">
+                <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/OW_Home_Feature-row-02.webp"
+                 alt="optimalImg">
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="example-section">
+        <div class="example-container">
+            <div class="example-header flex">
+                <h2 class="example-title">Flexible. Automated. Detailed.</h2>
+                <p class="example-desc">Multiple analysis methodologies transform results into insights in no time. Our tools provide the most granular visualizations available, enabling you to analyze your data your way and communicate your findings with clarity.</p>
+                <a href="#" class="secondary-button">Start for free</a>
+                <a href="#" class="secondary-button">Talk for sales</a>
+            </div>
+
+            <div class="example-area flex">
+                <a href="#" class="example-card">
+                    <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/Combine.svg" 
+                    alt="img1">
+                    <p class="card-text">Combine qualitative and quantitative research methods to get a clearer picture.</p>
+                </a>
+
+                <a href="#" class="example-card">
+                    <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/Patterns.svg" 
+                    alt="img2">
+                    <p class="card-title">See responses as they come in and start identifying patterns in your data as soon as you launch your study.</p>
+                </a>
+
+                <a href="#" class="example-card">
+                    <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/Iterate.svg" 
+                    alt="img3">
+                    <p class="card-title">Easily iterate and compare ideas as many times as you like to find a solution that best meets user needs and business goals.</p>
+                </a>
+
+                <a href="#" class="example-card">
+                    <img src="https://www.optimalworkshop.com/wp-content/uploads/2023/07/Share.svg" 
+                    alt="img4">
+                    <p class="card-title">Share your results with stakeholders and decision makers, and demonstrate ROI by comparing benchmarked results with your tested iterations.</p>
+                </a>
+            </div>          
+
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container flex cta-section-container">
+            <h2>Get results in hours with in-app recruitment</h2>
+            <p class="cta-desc">Find and recruit high quality participants with instant, in-app access to our panel of over 239 million participants. For highly targeted participants use our custom recruitment service.</p>
+            <a href="#" class="primary-button">Learn More</a>
+            <!-- <img src="https://optimalworkshopcom.wpcomstaging.com/wp-content/uploads/2023/07/OW_Recruitment_Banner--700x463.png" alt="catImg"> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex footer-container">
+            <a href="#" class="company-logo">
+                <img src="data:image/png;base64,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" 
+                alt="companyImg">
+            </a>
+
+            <div class="link-column flex">
+                <h4>Product</h4>
+                <a href="#" class="hover">Overview</a>
+                <a href="#" class="hover">Card Sorting</a>
+                <a href="#" class="hover">Tree Testing</a>
+                <a href="#" class="hover">First-Click Testing</a>
+                <a href="#" class="hover">Online Surveys</a>
+                <a href="#" class="hover">Product Demos</a>
+                <a href="#" class="hover">Participants Requirement</a>
+            </div>
+
+            <div class="link-column flex">
+                <h4>Solutions</h4>
+                <a href="#" class="hover">User Research</a>
+                <a href="#" class="hover">UX Design</a>
+                <a href="#" class="hover">Information Architecture </a>
+                 
+            </div>
+
+            <div class="link-column flex">
+                <h4>Pricing & Plans</h4>
+                <a href="#" class="hover">Pricing</a>
+                <a href="#" class="hover">Enterprise Plans</a>
+                 
+            </div>
+
+            <div class="link-column flex">
+                <h4>Company</h4>
+                <a href="#" class="hover">About Us</a>
+                <a href="#" class="hover">Careers</a>
+                <a href="#" class="hover">Contact Us</a>
+                
+            </div>
+
+            <div class="link-column flex">
+                <h4>Resource</h4>
+                <a href="#" class="hover">Blog</a>
+                <a href="#" class="hover">Learning Materials</a>
+                <a href="#" class="hover">Help Center</a>
+                 
+            </div>
+        </div>
+    </footer>
+
+    <div class="sub-footer">
+        <div class="container flex subfooter-container">
+            <a href="#" class="hover-link">Privacy Policy</a>
+            <a href="#" class="hover-link">Terms & Condition</a>
+            <a href="#" class="hover-link">Security Information</a>
+             
+        </div>
+    </div>
+
+    <!-- for space -->
+    <!-- <div class="spacer" style="height: 100vh;"></div> -->
+
+     
+
+</body>
+</html>
